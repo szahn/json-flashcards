@@ -1,0 +1,85 @@
+@font-face {
+  font-family: SansForgetica-Regular;
+  src: url('./fonts/SansForgetica-Regular.otf');
+}
+
+body {
+  background: rgb(174,184,193);
+}
+
+.memorization {
+  font-family:'SansForgetica-Regular'
+}
+
+.container {
+  display: flex;
+}
+
+.container > * {
+  flex: 1 100%;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-content: center; 
+}
+
+.center-text {
+  text-align: center;
+}
+
+.flashcard-content {
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  -webkit-box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.52);
+  -moz-box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.52);
+  box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.52);
+}
+
+.flashcard-content-title{
+  font-size: 32px;
+}
+
+.flashcard-content-paragraph{
+  font-size: 24px;
+}
+
+.deck-title {
+  font-size: 18px;
+  color: rgb(54,59,48);
+}
+
+.deck-footer {
+  color: rgb(54,59,48);
+}
+
+.flashcard-controls button {
+  font-size: 28px;
+  cursor: pointer;
+  margin-left: 10px;
+  background: rgb(52,73,59);
+  color: rgb(205,218,220);
+  border: 0px;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.plantation-theme {
+  background: rgb(39,65,57);
+  color: rgb(242,211,70);
+}
+
+.red-border {
+  border: 2px;
+  border-color: rgb(231,55,15);
+  border-style: solid;
+}
